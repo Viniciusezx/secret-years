@@ -1,0 +1,19 @@
+/* Fundo Matrix */
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 0;
+}
+
+/* Conteúdo por cima do canvas */
+.enigma-box {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: #8000ff; /* Texto roxo */
+    font-family: monospace;
+}
