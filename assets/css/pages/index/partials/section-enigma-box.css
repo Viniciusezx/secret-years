@@ -36,3 +36,24 @@ body {
     font-size: 2rem;
     color: #ffffff;
 }
+
+#entrada {
+    width: 250px;
+    height: 35px;
+    background: none;
+    border: solid white 1px;
+    border-radius: 10px 10px 0px 0px;
+    color: #ffffff;
+    text-indent: 4px;
+}
+
+#entrada::placeholder {
+    color: #ffffff;
+}
+
+#botao {
+    width: 256px;
+    height: 20px;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+}

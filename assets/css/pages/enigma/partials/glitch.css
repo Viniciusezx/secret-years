@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  font-family: monospace;
+}
+
+#glitchCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.conteudo {
+  position: relative;
+  z-index: 1;
+  color: #d0a0ff;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.2rem;
+}
+
+.port {
+  width: 300px;
+  border-radius: 100%;
+}
