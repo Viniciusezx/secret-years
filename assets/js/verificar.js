@@ -3,7 +3,7 @@ function verificar() {
   const validas = ["d fdvd gh vqrrsb"];
 
   if (validas.includes(valor)) {
-    window.location.href = "";
+    window.location.href = "enigmas.html";
   } else {
     alert("Palavra incorreta.");
   }
