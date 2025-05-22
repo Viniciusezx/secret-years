@@ -1,0 +1,11 @@
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.port {
+  width: 300px;
+  border-radius: 100%;
+}

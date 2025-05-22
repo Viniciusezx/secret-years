@@ -14,15 +14,14 @@ body, html {
 }
 
 .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
   position: relative;
   z-index: 1;
   color: #d0a0ff;
   text-align: center;
   padding-top: 50px;
   font-size: 1.2rem;
-}
-
-.port {
-  width: 300px;
-  border-radius: 100%;
 }
