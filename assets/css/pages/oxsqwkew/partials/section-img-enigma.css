@@ -1,0 +1,22 @@
+.img-enigma {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: black;
+}
+
+.img-crip {
+    width: 300px;
+}
+
+.btn-baixar {
+    width: 150px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+}
