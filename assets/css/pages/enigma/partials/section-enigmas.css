@@ -16,6 +16,42 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+#glass-enig {
+    width: 300px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text {
+    font-size: 13px;
+}
+
+#entrada {
+    background: none;
+    color: #d0a0ff;
+    border: 1px solid #fff;
+}
+
+#botao {
+    width: 50px;
+    background-color: #fff;
+    border: none;
+}
+
+#entrada:focus-visible {
+    outline: none;
+}
+
 .morse-box {
     width: 50px;
     height: 50px;
@@ -30,4 +66,8 @@
 
 .enigmatres-txt {
     font-size: 13px;
+}
+
+.senha-box {
+    display: flex;
 }
